@@ -280,7 +280,7 @@ opkFF	db "code exten$",25
   pavCom 		db nameLen dup (0) ; Failo pavadinimas pasibaigiantis nuliu
   pavAsm 		db nameLen dup (0) 
   
-  info			db "Karolis Uzdanavicius 6PS grupe",13,10,"Programa konvertuoja masinini koda i asm eilutes",  "$"
+  info			db "Vytautas Nekrasevicius 6PS grupe",13,10,"Programa konvertuoja masinini koda i asm eilutes",  "$"
   kmsg1 		db "Nurodykite failo pavadinima", 13, 10, "$"
   kmsg2 		db "Failo pavadinimas per ilgas", 13, 10, "$"
   kmsg3 		db "Failo atidaryti nepavyko", 13, 10, "$"
